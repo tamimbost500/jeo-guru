@@ -1,0 +1,53 @@
+.slider-active .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    content: '';
+    text-align: center;
+    opacity: .25;
+    border-radius: 50%;
+    background: var(--navyblue);
+    color: var(--navyblue);
+    -moz-osx-font-smoothing: grayscale;
+}
+.slider-active .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 14px;
+    height: 14px;
+    padding: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: var(--navyblue);
+    border: 0;
+    outline: none;
+    background: var(--blue);
+    border-radius: 50%;
+}
+.slider-active .slick-dots {
+    position: relative;
+    display: block;
+    width: 100%;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    transform: translateY(-450%);
+    list-style: none;
+    text-align: right;
+}
+.slider-active .slick-dots li {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    left: 95%;
+}

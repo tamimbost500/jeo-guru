@@ -1,8 +1,13 @@
 var tnum = 'en';
 
 $(document).ready(function(){
+	
+	   // Start Preloader
+	  $(window).on('load', function() {
+	  $(".loading-preloader").fadeOut();
+	   });
 
-            // Language Switcher 
+            //  Star Language Switcher 
             $(".cuntry-lang").on("click", function(e){
                 e.preventDefault();
                 $(".more-lang").toggleClass("ul lang-open");

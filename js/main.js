@@ -10,7 +10,7 @@ $(document).ready(function(){
             //  Star Language Switcher 
             $(".cuntry-lang").on("click", function(e){
                 e.preventDefault();
-                $(".more-lang").toggleClass("ul lang-open");
+                $(".more-lang").toggleClass("lang-open");
             });
     
             $(".more-lang").each(function(){
@@ -21,6 +21,39 @@ $(document).ready(function(){
                     $(".cuntry-lang > a").html(flagText);
                 });
             });
+
+
+          /* magnificPopup img view */
+          $('.popup-image').magnificPopup({
+	        type: 'image',
+	        gallery: {
+	        enabled: true
+	      }
+      });
+
+
+      /* magnificPopup video view */
+      $('.popup-video').magnificPopup({
+	    type: 'iframe'
+      });
+
+
+      var $grid = $('.tabing-main-items').isotope({
+        itemSelector: '.tabing-single-item',
+        percentPosition: true,
+        masonry: {
+          // use outer width of grid-sizer for columnWidth
+          columnWidth: 1
+        }
+      })
+    //   End Items Set
+
+    // Start Menu Set
+
+    $('.portfolio-menu').on( 'click', 'li', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+      });
 
         // Mobile Menu
         $('#mobile-menu').meanmenu({

@@ -12,7 +12,7 @@
     opacity: .25;
     border-radius: 50%;
     background: var(--navyblue);
-    color: var(--navyblue);
+    color: var(--blue);
     -moz-osx-font-smoothing: grayscale;
 }
 .slider-active .slick-dots li button {
@@ -50,4 +50,9 @@
     padding: 0;
     cursor: pointer;
     left: 95%;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: var(--navyblue);
 }

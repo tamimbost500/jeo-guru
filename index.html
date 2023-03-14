@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/jquery.atAccordionOrTabs.min.css">
     <link rel="stylesheet" href="css/testimonial-slider.css">
     <link rel="stylesheet" href="css/owl-cerosel.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -88,14 +89,14 @@
         <div class="header-menu">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="col-xl-2 col-lg-6 col-md-6">
                         <div class="logo">
                             <a href="#">
                                 <img src="img/logo/logo.png" alt="JEO Guru">
                             </a>
                         </div>
                     </div>
-                    <div class="col-xl-6 mobile-menus">
+                    <div class="col-xl-6 offset-xl-1 mobile-menus align-ment">
                         <!-- Start  Navigation -->
                         <nav class="nav-menu">
                             <div class="close-nav-menu">
@@ -423,7 +424,7 @@
                         <img src="img/features/feature-img.png" alt="Feature">
                         <div class="feature-main-img-shep">
                             <img src="img/features/feature-sub-img.png" alt="Feature" class="feature-main-sub-shep">
-                            <span class="features-video-btn"><i class="fa-solid fa-play main-btn-for-video"></i></span>
+                           <a href="https://www.youtube.com/watch?v=XbZDL435xw0&t=97s" class="popup-video"><span class="features-video-btn"><i class="fa-solid fa-play main-btn-for-video"></i></span></a>
                         </div>
                     </div>
                 </div>
@@ -482,6 +483,11 @@
                         <div class="col-xl-4 col-md-6">
                             <div class="protfoli-item wow fadeInUp">
                                 <img src="img/portfolio/pr-1.png" alt="Portfolio">
+                                <a href="img/portfolio/pr-1.png"  class="popup-image">
+                                    <div class="portfolio-overlay">
+                                        <span><i class="fa-solid fa-link"></i></span>
+                                    </div>
+                                </a>
                                 <div class="portfolio-info">
                                     <p>Web Design</p>
                                     <h4>zolpin web desing</h4>
@@ -491,6 +497,11 @@
                         <div class="col-xl-4 col-md-6">
                             <div class="protfoli-item wow fadeInUp">
                                 <img src="img/portfolio/pr-2.png" alt="Portfolio">
+                               <a href="img/portfolio/pr-2.png"  class="popup-image">
+                                <div class="portfolio-overlay">
+                                    <span><i class="fa-solid fa-link"></i></span>
+                                </div>
+                            </a>
                                 <div class="portfolio-info">
                                     <p>Web Design</p>
                                     <h4>zolpin web desing</h4>
@@ -499,7 +510,12 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="protfoli-item wow fadeInUp">
-                                <img src="img/portfolio/pr-3.png" alt="Portfolio">
+                                    <img src="img/portfolio/pr-3.png" alt="Portfolio">
+                                <a href="img/portfolio/pr-3.png"  class="popup-image">
+                                    <div class="portfolio-overlay">
+                                        <span><i class="fa-solid fa-link"></i></span>
+                                    </div>
+                                </a>
                                 <div class="portfolio-info">
                                     <p>Web Design</p>
                                     <h4>zolpin web desing</h4>
@@ -508,7 +524,12 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="protfoli-item wow fadeInUp">
-                                <img src="img/portfolio/pr-4.png" alt="Portfolio">
+                                    <img src="img/portfolio/pr-4.png" alt="Portfolio">
+                                <a href="img/portfolio/pr-4.png"  class="popup-image">
+                                    <div class="portfolio-overlay">
+                                        <span><i class="fa-solid fa-link"></i></span>
+                                    </div>
+                                </a>
                                 <div class="portfolio-info">
                                     <p>Web Design</p>
                                     <h4>zolpin web desing</h4>
@@ -517,7 +538,12 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="protfoli-item wow fadeInUp">
-                                <img src="img/portfolio/pr-5.png" alt="Portfolio">
+                                    <img src="img/portfolio/pr-5.png" alt="Portfolio">
+                                <a href="img/portfolio/pr-5.png"  class="popup-image">
+                                    <div class="portfolio-overlay">
+                                        <span><i class="fa-solid fa-link"></i></span>
+                                    </div>
+                                </a>
                                 <div class="portfolio-info">
                                     <p>Web Design</p>
                                     <h4>zolpin web desing</h4>
@@ -526,7 +552,12 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="protfoli-item wow fadeInUp">
-                                <img src="img/portfolio/pr-6.png" alt="Portfolio">
+                                    <img src="img/portfolio/pr-6.png" alt="Portfolio">
+                                <a href="img/portfolio/pr-6.png"  class="popup-image">
+                                    <div class="portfolio-overlay">
+                                        <span><i class="fa-solid fa-link"></i></span>
+                                    </div>
+                                </a>
                                 <div class="portfolio-info">
                                     <p>Web Design</p>
                                     <h4>zolpin web desing</h4>
@@ -664,18 +695,18 @@
                 <div class="tabing-row">
                     <div class="row d-flex align-items-center text-center">
                         <div class="col-xl-12 col-lg-12">
-                            <div class="tabing-btn wow fadeInUp">
+                            <div class="tabing-btn wow fadeInUp portfolio-menu">
                                 <ul>
-                                    <li><a href="#">monthly</a></li>
-                                    <li><a href="#">yearly</a></li>
+                                    <li data-filter="*">monthly</li>
+                                    <li data-filter="*">yearly</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="pricing-table">
-                    <div class="row d-flex align-items-center text-center">
-                        <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="row d-flex align-items-center text-center tabing-main-items">
+                        <div class="col-xl-4 col-lg-4 col-md-6 tabing-single-item category-one category-two">
                             <div class="pricing-card wow fadeInUp" style="background-image: url('img/pricing/pricing-basic-bg.png');background-size: cover;background-repeat: no-repeat;">
                                 <div class="pricing-card-name">
                                     <p>Basic Plan</p>
@@ -710,7 +741,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="col-xl-4 col-lg-4 col-md-6 tabing-single-item category-one category-two">
                             <div class="pricing-card wow fadeInUp" style="background-image: url('img/pricing/pricing-premium-bg.png');background-size: cover;background-repeat: no-repeat;">
                                 <div class="pricing-card-name">
                                     <p>Premium Plan</p>
@@ -745,7 +776,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-12">
+                        <div class="col-xl-4 col-lg-4 col-md-12 tabing-single-item category-one category-two">
                             <div class="pricing-card wow fadeInUp" style="background-image: url('img/pricing/pricing-advence-bg.png');background-size: cover;background-repeat: no-repeat;">
                                 <div class="pricing-card-name">
                                     <p>Advance Plan</p>
@@ -1080,7 +1111,9 @@
 <script src="js/ajax.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/mobile-menu.js"></script>
+<script src="js/isotop.js"></script>
 <script src="js/waypoints.js"></script>
+<script src="js/popup.js"></script>
 <script src="js/counter.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/jquery.atAccordionOrTabs.min.js"></script>

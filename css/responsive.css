@@ -170,6 +170,11 @@
 
 /* Start Navigation */
 @media(max-width: 1199px){
+	.header-menu .menu > .menu-item > .sub-menu > .menu-item > a:hover, .header-menu .menu > .menu-item:hover > a {
+		color: #fff;
+		background: var(--blue);
+		/* margin-left: 5px; */
+	}
 	.header-menu .menu-overlay.active{
 	visibility: visible;
 	opacity: 1;
@@ -182,7 +187,7 @@
 		height: 100%;
 		top:0;
 		overflow-y: auto;
-		background-color: #222222;
+		background-color: var(--navyblue);
 		z-index: 1000;
 		padding: 15px 0;
 		transition: all 0.5s ease;
